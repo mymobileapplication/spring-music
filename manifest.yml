@@ -3,5 +3,6 @@ applications:
 - name: spring-music
   memory: 1G
   random-route: true
+  health-check-type: process
   path: build/libs/spring-music.jar
 
